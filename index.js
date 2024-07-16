@@ -6,6 +6,8 @@
 const number = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 
+document.querySelector(".h1").style.backgroundColor = "#fff";
+
 document.querySelector(".check").addEventListener("click", function () {
 	const guess = Number(document.querySelector(".guess").value);
 
